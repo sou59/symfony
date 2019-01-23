@@ -1,0 +1,46 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+
+    <div class="container pt-5">
+        <p>Page Detail Biere</p>
+
+        <div class="card" style="width: 18rem;">
+            <img class="card-img-top" src="{{ asset('img/'~oneBiere.image) }}" alt="Card image cap">
+            <div class="card-body">
+                <h5 class="card-title">{{ oneBiere.nom }}</h5>
+                <p class="card-text">Description : {{ oneBiere.id }}</p>
+                <p class="card-text">Description : {{ oneBiere.description }}</p>
+                <p class="card-text">Prix : {{ oneBiere.prix }}</p>
+                <p class="card-text">Degree : {{ oneBiere.degree }}</p>
+                <p class="card-text">Volume : {{ oneBiere.volume }}</p>
+                <p class="card-text">Prix au litre : {{ oneBiere.prixlitre }}</p>
+                <p class="card-text">Type de bière{{ oneBiere.type }}</p>
+                <p class="card-text">Pays : {{ oneBiere.pays }}</p>
+            </div>
+            <button id="panier" type="submit" onClick() class="btn btn-primary">Ajouter au panier</button>
+        </div>
+
+    </div>
+
+
+{% endblock %}
+
+{% block stylesheets %}
+    <style>
+
+    </style>
+{% endblock %}
+
+{% block javascripts %}
+    {{ parent() }}
+    function () {
+            var panierBiere  = {
+            biere : {{ oneBiere.id }},
+            };
+        console.log(oneBiere);
+            var panierBiere_json = JSON.stringify(panierBiere);
+            localStorage.setItem("panierBiere",[{{ oneBiere.id }}]);
+    }
+{% endblock %}
+

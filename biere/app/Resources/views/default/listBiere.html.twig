@@ -1,0 +1,29 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+
+    <div class="container pt-5">
+        <p>Page Liste des bières</p>
+
+        {%  for biere in bieres %}
+
+            <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="{{ asset('img/'~biere.image) }}" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">{{ biere.nom }}</h5>
+                    <p class="card-text">{{ biere.description }}</p>
+                    <a href={{ path('detailBiere', {'id': biere.id }) }}>Voir l'article {{ biere.nom }}</a>
+                </div>
+            </div>
+
+        {% endfor %}
+    </div>
+
+
+{% endblock %}
+
+{% block stylesheets %}
+    <style>
+
+    </style>
+{% endblock %}

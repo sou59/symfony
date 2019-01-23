@@ -1,0 +1,24 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+
+    <form action="{{ path('addApi') }}" method="POST">
+
+        <div class="container">
+            <label for="name"><b>Nom de la bière</b></label>
+            <input type="text" placeholder="name" name="name" required>
+
+            <label for="price"><b>Prix</b></label>
+            <input type="price" placeholder="price" name="price" required>
+
+            <button type="submit">Ajouter la bière</button>
+        </div>
+    </form>
+
+{% endblock %}
+
+{% block stylesheets %}
+    <style>
+
+    </style>
+{% endblock %}
