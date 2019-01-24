@@ -10,10 +10,11 @@ use Symfony\Component\Routing\Annotation\Route;
 use Doctrine\ORM\EntityManagerInterface;
 use AppBundle\Entity\Beer;
 use AppBundle\Entity\Category;
-use AppBundle\Entity\Command;
+use AppBundle\Entity\User;
 
 class CommandController extends Controller
 {
+
 
 
 }

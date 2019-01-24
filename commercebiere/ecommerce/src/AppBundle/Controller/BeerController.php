@@ -44,7 +44,7 @@ class BeerController extends Controller
         $variable= json_decode($request->getContent(), true);
         $name = $variable['name'];
         $price = $variable['price'];
-        $category->setName($variable['name']);
+        $category = $this->getDoctrine()->getRepository(Category::class)->find($category);
 
         $beer->setName($name)
             ->setPrice($price)

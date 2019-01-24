@@ -2,18 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7ec7beb2-c9eb-46db-be63-0d227a8f4d42" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/commercebiere.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ecommerce/src/AppBundle/Controller/BeerController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ecommerce/src/AppBundle/Controller/CategoryController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecommerce/src/AppBundle/Controller/BeerController.php" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce/src/AppBundle/Controller/BeerController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecommerce/src/AppBundle/Controller/CategoryController.php" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce/src/AppBundle/Controller/CategoryController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecommerce/src/AppBundle/Controller/CommandController.php" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce/src/AppBundle/Controller/CommandController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecommerce/src/AppBundle/Entity/Beer.php" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce/src/AppBundle/Entity/Beer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecommerce/src/AppBundle/Entity/Command.php" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce/src/AppBundle/Entity/Command.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecommerce/src/AppBundle/Entity/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce/src/AppBundle/Entity/User.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../fantome/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../fantome/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../fantomefront/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../fantomefront/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../fantomefront/app/Resources/views/default/add.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/../fantomefront/app/Resources/views/default/add.html.twig" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -29,8 +25,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ecommerce/src/AppBundle/Controller/BeerController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="584">
-              <caret line="107" column="5" selection-start-line="107" selection-start-column="5" selection-end-line="107" selection-end-column="5" />
+            <state relative-caret-position="340">
+              <caret line="47" lean-forward="true" selection-start-line="47" selection-end-line="47" />
               <folding>
                 <element signature="e#40#97#0#PHP" expanded="true" />
               </folding>
@@ -41,7 +37,9 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ecommerce/src/AppBundle/Entity/User.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-315" />
+            <state relative-caret-position="264">
+              <caret line="131" column="18" selection-start-line="131" selection-start-column="18" selection-end-line="131" selection-end-column="18" />
+            </state>
           </provider>
         </entry>
       </file>
@@ -60,8 +58,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ecommerce/src/AppBundle/Controller/CommandController.php">
           <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="19" column="1" lean-forward="true" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
+              <folding>
+                <element signature="e#40#86#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ecommerce/src/AppBundle/Controller/DetailCommandController.php">
+          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="210">
-              <caret line="14" column="42" selection-start-line="14" selection-start-column="42" selection-end-line="14" selection-end-column="42" />
+              <caret line="25" column="23" selection-start-line="25" selection-start-column="23" selection-end-line="25" selection-end-column="23" />
               <folding>
                 <element signature="e#40#86#0#PHP" expanded="true" />
               </folding>
@@ -72,8 +82,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ecommerce/src/AppBundle/Entity/Command.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="429">
-              <caret line="218" column="7" lean-forward="true" selection-start-line="218" selection-start-column="7" selection-end-line="218" selection-end-column="7" />
+            <state relative-caret-position="767">
+              <caret line="115" lean-forward="true" selection-start-line="115" selection-end-line="115" />
               <folding>
                 <element signature="e#36#68#0#PHP" expanded="true" />
               </folding>
@@ -84,8 +94,20 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ecommerce/src/AppBundle/Entity/Beer.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="579">
-              <caret line="106" column="21" selection-start-line="106" selection-start-column="21" selection-end-line="106" selection-end-column="21" />
+            <state relative-caret-position="339">
+              <caret line="104" column="36" selection-start-line="104" selection-start-column="36" selection-end-line="104" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ecommerce/src/AppBundle/Entity/DetailCommand.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-888">
+              <caret line="5" column="32" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
+              <folding>
+                <element signature="e#36#84#0#PHP" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -93,8 +115,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ecommerce/src/AppBundle/Entity/Category.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" selection-start-line="4" selection-end-line="5" selection-end-column="48" />
+            <state relative-caret-position="204">
+              <caret line="74" column="5" selection-start-line="66" selection-start-column="4" selection-end-line="74" selection-end-column="5" />
               <folding>
                 <element signature="e#36#68#0#PHP" expanded="true" />
               </folding>
@@ -105,8 +127,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ecommerce/src/AppBundle/Controller/CategoryController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-line="14" selection-end-column="1" />
+            <state relative-caret-position="390">
+              <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
               <folding>
                 <element signature="e#40#86#0#PHP" expanded="true" />
               </folding>
@@ -116,6 +138,11 @@
       </file>
     </leaf>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>detailc</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
@@ -124,12 +151,15 @@
       <list>
         <option value="$PROJECT_DIR$/ecommerce/app/config/parameters.yml" />
         <option value="$PROJECT_DIR$/ecommerce/src/AppBundle/Entity/Category.php" />
-        <option value="$PROJECT_DIR$/ecommerce/src/AppBundle/Controller/CategoryController.php" />
-        <option value="$PROJECT_DIR$/ecommerce/src/AppBundle/Controller/BeerController.php" />
         <option value="$PROJECT_DIR$/ecommerce/src/AppBundle/Controller/UserController.php" />
+        <option value="$PROJECT_DIR$/ecommerce/src/AppBundle/Entity/User.php" />
         <option value="$PROJECT_DIR$/ecommerce/src/AppBundle/Controller/CommandController.php" />
-        <option value="$PROJECT_DIR$/ecommerce/src/AppBundle/Entity/Beer.php" />
+        <option value="$PROJECT_DIR$/ecommerce/src/AppBundle/Controller/BeerController.php" />
+        <option value="$PROJECT_DIR$/ecommerce/src/AppBundle/Entity/DetailCommand.php" />
         <option value="$PROJECT_DIR$/ecommerce/src/AppBundle/Entity/Command.php" />
+        <option value="$PROJECT_DIR$/ecommerce/src/AppBundle/Controller/CategoryController.php" />
+        <option value="$PROJECT_DIR$/ecommerce/src/AppBundle/Controller/DetailCommandController.php" />
+        <option value="$PROJECT_DIR$/ecommerce/src/AppBundle/Entity/Beer.php" />
       </list>
     </option>
   </component>
@@ -304,18 +334,18 @@
       <option name="presentableId" value="Default" />
       <updated>1548319790150</updated>
       <workItem from="1548319792313" duration="1682000" />
-      <workItem from="1548321771575" duration="7187000" />
+      <workItem from="1548321771575" duration="14525000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8869000" />
+    <option name="totallyTimeSpent" value="16207000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1853" height="925" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.099612616" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19811843" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -357,21 +387,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ecommerce/src/AppBundle/Controller/BeerController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="584">
-          <caret line="107" column="5" selection-start-line="107" selection-start-column="5" selection-end-line="107" selection-end-column="5" />
-          <folding>
-            <element signature="e#40#97#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ecommerce/src/AppBundle/Entity/User.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-315" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ecommerce/src/AppBundle/Controller/UserController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
@@ -382,50 +397,87 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ecommerce/src/AppBundle/Controller/CategoryController.php">
+    <entry file="file://$PROJECT_DIR$/ecommerce/src/AppBundle/Entity/User.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="14" selection-end-column="1" />
+        <state relative-caret-position="264">
+          <caret line="131" column="18" selection-start-line="131" selection-start-column="18" selection-end-line="131" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ecommerce/src/AppBundle/Entity/Category.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="74" column="5" selection-start-line="66" selection-start-column="4" selection-end-line="74" selection-end-column="5" />
           <folding>
-            <element signature="e#40#86#0#PHP" expanded="true" />
+            <element signature="e#36#68#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ecommerce/src/AppBundle/Controller/CommandController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="42" selection-start-line="14" selection-start-column="42" selection-end-line="14" selection-end-column="42" />
+        <state relative-caret-position="285">
+          <caret line="19" column="1" lean-forward="true" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
           <folding>
             <element signature="e#40#86#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ecommerce/src/AppBundle/Entity/Category.php">
+    <entry file="file://$PROJECT_DIR$/ecommerce/src/AppBundle/Controller/BeerController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" selection-start-line="4" selection-end-line="5" selection-end-column="48" />
+        <state relative-caret-position="340">
+          <caret line="47" lean-forward="true" selection-start-line="47" selection-end-line="47" />
           <folding>
-            <element signature="e#36#68#0#PHP" expanded="true" />
+            <element signature="e#40#97#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ecommerce/src/AppBundle/Entity/Command.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="429">
-          <caret line="218" column="7" lean-forward="true" selection-start-line="218" selection-start-column="7" selection-end-line="218" selection-end-column="7" />
+        <state relative-caret-position="767">
+          <caret line="115" lean-forward="true" selection-start-line="115" selection-end-line="115" />
           <folding>
             <element signature="e#36#68#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/ecommerce/src/AppBundle/Controller/CategoryController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+          <folding>
+            <element signature="e#40#86#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ecommerce/src/AppBundle/Controller/DetailCommandController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="25" column="23" selection-start-line="25" selection-start-column="23" selection-end-line="25" selection-end-column="23" />
+          <folding>
+            <element signature="e#40#86#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ecommerce/src/AppBundle/Entity/DetailCommand.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-888">
+          <caret line="5" column="32" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
+          <folding>
+            <element signature="e#36#84#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/ecommerce/src/AppBundle/Entity/Beer.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="579">
-          <caret line="106" column="21" selection-start-line="106" selection-start-column="21" selection-end-line="106" selection-end-column="21" />
+        <state relative-caret-position="339">
+          <caret line="104" column="36" selection-start-line="104" selection-start-column="36" selection-end-line="104" selection-end-column="36" />
         </state>
       </provider>
     </entry>

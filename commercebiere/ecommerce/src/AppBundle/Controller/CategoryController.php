@@ -16,7 +16,7 @@ class CategoryController extends Controller
     /**
      * @Route("/addCategory", name="addCategory", methods={"POST"})
      */
-    public function addBeerAction(Request $request){
+    public function addCategorieAction(Request $request){
 
         $category = new Category();
 

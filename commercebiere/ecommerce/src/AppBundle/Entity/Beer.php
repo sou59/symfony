@@ -101,10 +101,10 @@ class Beer
     private $category;
 
     /**
-     * @ORM\ManyToOne(targetEntity="Command", inversedBy="beers")
-     * @ORM\JoinColumn(name="command_id", referencedColumnName="id")
+     * @ORM\ManyToOne(targetEntity="DetailCommand", inversedBy="beers")
+     * @ORM\JoinColumn(name="detail_command_id", referencedColumnName="id")
      */
-    private $command;
+    private $detailcommand;
 
 
 
@@ -154,5 +154,29 @@ class Beer
     public function getCommand()
     {
         return $this->command;
+    }
+
+    /**
+     * Set detailcommand
+     *
+     * @param \AppBundle\Entity\DetailCommand $detailcommand
+     *
+     * @return Beer
+     */
+    public function setDetailcommand(\AppBundle\Entity\DetailCommand $detailcommand = null)
+    {
+        $this->detailcommand = $detailcommand;
+
+        return $this;
+    }
+
+    /**
+     * Get detailcommand
+     *
+     * @return \AppBundle\Entity\DetailCommand
+     */
+    public function getDetailcommand()
+    {
+        return $this->detailcommand;
     }
 }

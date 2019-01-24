@@ -13,6 +13,7 @@ use Doctrine\Common\Collections\ArrayCollection;
  */
 class Command
 {
+
     /**
      * @var int
      *
@@ -29,26 +30,6 @@ class Command
      */
     private $nomuser;
 
-    /**
-     * @var string
-     *
-     * @ORM\Column(name="nombiere", type="string", length=255)
-     */
-    private $nombiere;
-
-    /**
-     * @var float
-     *
-     * @ORM\Column(name="pricebiere", type="float")
-     */
-    private $pricebiere;
-
-    /**
-     * @var int
-     *
-     * @ORM\Column(name="quantity", type="integer")
-     */
-    private $quantity;
 
     /**
      * @var float
@@ -56,89 +37,6 @@ class Command
      * @ORM\Column(name="total", type="float")
      */
     private $total;
-
-
-    /**
-     * Get id
-     *
-     * @return int
-     */
-    public function getId()
-    {
-        return $this->id;
-    }
-
-    /**
-     * Set nomuser
-     *
-     * @param string $nomuser
-     *
-     * @return Command
-     */
-    public function setNomuser($nomuser)
-    {
-        $this->nomuser = $nomuser;
-
-        return $this;
-    }
-
-    /**
-     * Get nomuser
-     *
-     * @return string
-     */
-    public function getNomuser()
-    {
-        return $this->nomuser;
-    }
-
-    /**
-     * Set nombiere
-     *
-     * @param string $nombiere
-     *
-     * @return Command
-     */
-    public function setNombiere($nombiere)
-    {
-        $this->nombiere = $nombiere;
-
-        return $this;
-    }
-
-    /**
-     * Get nombiere
-     *
-     * @return string
-     */
-    public function getNombiere()
-    {
-        return $this->nombiere;
-    }
-
-    /**
-     * Set pricebiere
-     *
-     * @param float $pricebiere
-     *
-     * @return Command
-     */
-    public function setPricebiere($pricebiere)
-    {
-        $this->pricebiere = $pricebiere;
-
-        return $this;
-    }
-
-    /**
-     * Get pricebiere
-     *
-     * @return float
-     */
-    public function getPricebiere()
-    {
-        return $this->pricebiere;
-    }
 
     /**
      * Set quantity
@@ -189,48 +87,112 @@ class Command
     }
 
     /**
-     * @ORM\OneToMany(targetEntity="Beer", mappedBy="command")
+     * @ORM\OneToMany(targetEntity="DetailCommand", mappedBy="command")
      */
-    private $beers;
+    private $detailcommand;
 
     public function __construct()
     {
-        $this->beers = new ArrayCollection();
+        $this->detailcommand = new ArrayCollection();
+    }
+
+
+    /**
+     * @ORM\ManyToOne(targetEntity="User", inversedBy="command")
+     * @ORM\JoinColumn(name="user_id", referencedColumnName="id")
+     */
+    private $user;
+
+
+    /**
+     * Get id
+     *
+     * @return integer
+     */
+    public function getId()
+    {
+        return $this->id;
     }
 
     /**
-     * Add beer
+     * Set nomuser
      *
-     * @param \AppBundle\Entity\Beer $beer
+     * @param string $nomuser
      *
-     * @return Category
+     * @return Command
      */
-    public function addBeer(\AppBundle\Entity\Beer $beer)
+    public function setNomuser($nomuser)
     {
-        $this->beers[] = $beer;
+        $this->nomuser = $nomuser;
 
         return $this;
     }
 
     /**
-     * Remove beer
+     * Get nomuser
      *
-     * @param \AppBundle\Entity\Beer $beer
+     * @return string
      */
-    public function removeBeer(\AppBundle\Entity\Beer $beer)
+    public function getNomuser()
     {
-        $this->beers->removeElement($beer);
+        return $this->nomuser;
     }
 
     /**
-     * Get beers
+     * Add detailcommand
+     *
+     * @param \AppBundle\Entity\DetailCommand $detailcommand
+     *
+     * @return Command
+     */
+    public function addDetailcommand(\AppBundle\Entity\DetailCommand $detailcommand)
+    {
+        $this->detailcommand[] = $detailcommand;
+
+        return $this;
+    }
+
+    /**
+     * Remove detailcommand
+     *
+     * @param \AppBundle\Entity\DetailCommand $detailcommand
+     */
+    public function removeDetailcommand(\AppBundle\Entity\DetailCommand $detailcommand)
+    {
+        $this->detailcommand->removeElement($detailcommand);
+    }
+
+    /**
+     * Get detailcommand
      *
      * @return \Doctrine\Common\Collections\Collection
      */
-    public function getBeers()
+    public function getDetailcommand()
     {
-        return $this->beers;
+        return $this->detailcommand;
     }
 
+    /**
+     * Set user
+     *
+     * @param \AppBundle\Entity\User $user
+     *
+     * @return Command
+     */
+    public function setUser(\AppBundle\Entity\User $user = null)
+    {
+        $this->user = $user;
 
+        return $this;
+    }
+
+    /**
+     * Get user
+     *
+     * @return \AppBundle\Entity\User
+     */
+    public function getUser()
+    {
+        return $this->user;
+    }
 }

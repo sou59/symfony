@@ -2,18 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ee05c5c1-38dd-403f-abd2-d4a1c195ff4e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../commercebiere/.idea/commercebiere.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../commercebiere/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../commercebiere/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../commercebiere/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../commercebiere/.idea/php.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../commercebiere/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../commercebiere/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../commercebiere/ecommerce/src/AppBundle/Controller/BeerController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../commercebiere/ecommerce/src/AppBundle/Controller/CategoryController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../commercebiere/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../commercebiere/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../commercebiere/ecommerce/src/AppBundle/Controller/BeerController.php" beforeDir="false" afterPath="$PROJECT_DIR$/../commercebiere/ecommerce/src/AppBundle/Controller/BeerController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../commercebiere/ecommerce/src/AppBundle/Controller/CategoryController.php" beforeDir="false" afterPath="$PROJECT_DIR$/../commercebiere/ecommerce/src/AppBundle/Controller/CategoryController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../commercebiere/ecommerce/src/AppBundle/Controller/CommandController.php" beforeDir="false" afterPath="$PROJECT_DIR$/../commercebiere/ecommerce/src/AppBundle/Controller/CommandController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../commercebiere/ecommerce/src/AppBundle/Entity/Beer.php" beforeDir="false" afterPath="$PROJECT_DIR$/../commercebiere/ecommerce/src/AppBundle/Entity/Beer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../commercebiere/ecommerce/src/AppBundle/Entity/Command.php" beforeDir="false" afterPath="$PROJECT_DIR$/../commercebiere/ecommerce/src/AppBundle/Entity/Command.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../commercebiere/ecommerce/src/AppBundle/Entity/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/../commercebiere/ecommerce/src/AppBundle/Entity/User.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../fantomefront/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../fantomefront/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../fantomefront/app/Resources/views/default/add.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/../fantomefront/app/Resources/views/default/add.html.twig" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
