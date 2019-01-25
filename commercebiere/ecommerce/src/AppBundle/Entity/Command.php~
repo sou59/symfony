@@ -32,6 +32,14 @@ class Command
 
 
     /**
+     * @var integer
+     *
+     * @ORM\Column(name="numero", type="integer", length=255)
+     */
+    private $numero;
+
+
+    /**
      * @var float
      *
      * @ORM\Column(name="total", type="float")
@@ -99,9 +107,100 @@ class Command
 
     /**
      * @ORM\ManyToOne(targetEntity="User", inversedBy="command")
-     * @ORM\JoinColumn(name="users", referencedColumnName="id")
+     * @ORM\JoinColumn(name="user_id", referencedColumnName="id")
      */
     private $user;
 
-    
+
+    /**
+     * Get id
+     *
+     * @return integer
+     */
+    public function getId()
+    {
+        return $this->id;
+    }
+
+    /**
+     * Set nomuser
+     *
+     * @param string $nomuser
+     *
+     * @return Command
+     */
+    public function setNomuser($nomuser)
+    {
+        $this->nomuser = $nomuser;
+
+        return $this;
+    }
+
+    /**
+     * Get nomuser
+     *
+     * @return string
+     */
+    public function getNomuser()
+    {
+        return $this->nomuser;
+    }
+
+    /**
+     * Add detailcommand
+     *
+     * @param \AppBundle\Entity\DetailCommand $detailcommand
+     *
+     * @return Command
+     */
+    public function addDetailcommand(\AppBundle\Entity\DetailCommand $detailcommand)
+    {
+        $this->detailcommand[] = $detailcommand;
+
+        return $this;
+    }
+
+    /**
+     * Remove detailcommand
+     *
+     * @param \AppBundle\Entity\DetailCommand $detailcommand
+     */
+    public function removeDetailcommand(\AppBundle\Entity\DetailCommand $detailcommand)
+    {
+        $this->detailcommand->removeElement($detailcommand);
+    }
+
+    /**
+     * Get detailcommand
+     *
+     * @return \Doctrine\Common\Collections\Collection
+     */
+    public function getDetailcommand()
+    {
+        return $this->detailcommand;
+    }
+
+    /**
+     * Set user
+     *
+     * @param \AppBundle\Entity\User $user
+     *
+     * @return Command
+     */
+    public function setUser(\AppBundle\Entity\User $user = null)
+    {
+        $this->user = $user;
+
+        return $this;
+    }
+
+    /**
+     * Get user
+     *
+     * @return \AppBundle\Entity\User
+     */
+    public function getUser()
+    {
+        return $this->user;
+    }
 }

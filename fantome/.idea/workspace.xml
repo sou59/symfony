@@ -2,14 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ee05c5c1-38dd-403f-abd2-d4a1c195ff4e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../biere/.idea/biere.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../biere/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../biere/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../biere/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../biere/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../biere/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../blog/blog/app/Resources/views/admin/addRole.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../blog/blog/app/Resources/views/default/roles.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../blog/blog/app/Resources/views/includes/header.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../blog/blog/src/AppBundle/Controller/RoleController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../blog/blog/src/AppBundle/Service/BlogService.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../biere/src/AppBundle/Controller/BiereController.php" beforeDir="false" afterPath="$PROJECT_DIR$/../biere/src/AppBundle/Controller/BiereController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../biere/src/AppBundle/Service/BiereService.php" beforeDir="false" afterPath="$PROJECT_DIR$/../biere/src/AppBundle/Service/BiereService.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../commercebiere/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../commercebiere/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../commercebiere/ecommerce/src/AppBundle/Controller/BeerController.php" beforeDir="false" afterPath="$PROJECT_DIR$/../commercebiere/ecommerce/src/AppBundle/Controller/BeerController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../commercebiere/ecommerce/src/AppBundle/Controller/CategoryController.php" beforeDir="false" afterPath="$PROJECT_DIR$/../commercebiere/ecommerce/src/AppBundle/Controller/CategoryController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../commercebiere/ecommerce/src/AppBundle/Controller/CommandController.php" beforeDir="false" afterPath="$PROJECT_DIR$/../commercebiere/ecommerce/src/AppBundle/Controller/CommandController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../commercebiere/ecommerce/src/AppBundle/Entity/Beer.php" beforeDir="false" afterPath="$PROJECT_DIR$/../commercebiere/ecommerce/src/AppBundle/Entity/Beer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../commercebiere/ecommerce/src/AppBundle/Controller/DetailCommandController.php" beforeDir="false" afterPath="$PROJECT_DIR$/../commercebiere/ecommerce/src/AppBundle/Controller/DetailCommandController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../commercebiere/ecommerce/src/AppBundle/Entity/Command.php" beforeDir="false" afterPath="$PROJECT_DIR$/../commercebiere/ecommerce/src/AppBundle/Entity/Command.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../commercebiere/ecommerce/src/AppBundle/Entity/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/../commercebiere/ecommerce/src/AppBundle/Entity/User.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AppBundle/Controller/DefaultController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/AppBundle/Controller/DefaultController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fantomefront/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../fantomefront/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fantomefront/src/AppBundle/Controller/DefaultController.php" beforeDir="false" afterPath="$PROJECT_DIR$/../fantomefront/src/AppBundle/Controller/DefaultController.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -22,13 +35,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/AppBundle/Controller/DefaultController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="10" selection-end-column="40" />
+            <state relative-caret-position="90">
+              <caret line="91" column="13" selection-start-line="91" selection-start-column="13" selection-end-line="91" selection-end-column="13" />
+              <folding>
+                <element signature="e#40#70#0#PHP" expanded="true" />
+              </folding>
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/AppBundle/Repository/BeerRepository.php">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -43,8 +64,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/AppBundle/Entity/Beer.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="704">
-              <caret line="127" column="5" lean-forward="true" selection-start-line="97" selection-start-column="4" selection-end-line="127" selection-end-column="5" />
+            <state relative-caret-position="1890">
+              <caret line="127" column="5" selection-start-line="97" selection-start-column="4" selection-end-line="127" selection-end-column="5" />
               <folding>
                 <element signature="e#36#66#0#PHP" expanded="true" />
               </folding>
@@ -52,11 +73,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/AppBundle/Entity/Category.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="629">
-              <caret line="109" column="1" lean-forward="true" selection-start-line="109" selection-start-column="1" selection-end-line="109" selection-end-column="1" />
+            <state relative-caret-position="361">
+              <caret line="91" column="18" selection-start-line="91" selection-start-column="18" selection-end-line="91" selection-end-column="18" />
               <folding>
                 <element signature="e#36#68#0#PHP" expanded="true" />
               </folding>
@@ -67,7 +88,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/AppBundle/Entity/User.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
+            <state relative-caret-position="465">
               <caret line="31" column="18" selection-start-line="31" selection-start-column="18" selection-end-line="31" selection-end-column="18" />
             </state>
           </provider>
@@ -133,17 +154,20 @@
     </include_path>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="279" />
-    <option name="y" value="35" />
-    <option name="width" value="1475" />
-    <option name="height" value="915" />
+    <option name="x" value="67" />
+    <option name="y" value="27" />
+    <option name="width" value="885" />
+    <option name="height" value="913" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -155,12 +179,6 @@
               <item name="fantome" type="b2602c69:ProjectViewProjectNode" />
               <item name="fantome" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="fantome" type="b2602c69:ProjectViewProjectNode" />
-              <item name="fantome" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="fantome" type="b2602c69:ProjectViewProjectNode" />
@@ -208,16 +226,10 @@
               <item name="AppBundle" type="462c0819:PsiDirectoryNode" />
               <item name="Entity" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="fantome" type="b2602c69:ProjectViewProjectNode" />
-              <item name="fantome" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -252,19 +264,20 @@
       <workItem from="1548248598122" duration="7253000" />
       <workItem from="1548317308071" duration="4173000" />
       <workItem from="1548321752104" duration="17000" />
-      <workItem from="1548322399035" duration="3035000" />
+      <workItem from="1548322399035" duration="3373000" />
+      <workItem from="1548417559649" duration="883000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35084000" />
+    <option name="totallyTimeSpent" value="36305000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="279" y="35" width="1475" height="915" extended-state="0" />
+    <frame x="67" y="27" width="885" height="913" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.22323303" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.38617402" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="1" weight="0.19172932" />
@@ -302,36 +315,42 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/AppBundle/Entity/User.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="31" column="18" selection-start-line="31" selection-start-column="18" selection-end-line="31" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/AppBundle/Controller/DefaultController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="10" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/AppBundle/Entity/Beer.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="704">
-          <caret line="127" column="5" lean-forward="true" selection-start-line="97" selection-start-column="4" selection-end-line="127" selection-end-column="5" />
+        <state relative-caret-position="1890">
+          <caret line="127" column="5" selection-start-line="97" selection-start-column="4" selection-end-line="127" selection-end-column="5" />
           <folding>
             <element signature="e#36#66#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/AppBundle/Entity/User.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="31" column="18" selection-start-line="31" selection-start-column="18" selection-end-line="31" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/AppBundle/Entity/Category.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="629">
-          <caret line="109" column="1" lean-forward="true" selection-start-line="109" selection-start-column="1" selection-end-line="109" selection-end-column="1" />
+        <state relative-caret-position="361">
+          <caret line="91" column="18" selection-start-line="91" selection-start-column="18" selection-end-line="91" selection-end-column="18" />
           <folding>
             <element signature="e#36#68#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AppBundle/Repository/BeerRepository.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AppBundle/Controller/DefaultController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="91" column="13" selection-start-line="91" selection-start-column="13" selection-end-line="91" selection-end-column="13" />
+          <folding>
+            <element signature="e#40#70#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>

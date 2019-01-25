@@ -31,14 +31,6 @@ class DefaultController extends Controller
 
     }
 
-    /**
-     * @Route("/add", name="add")
-     */
-    public function addAction() {
-
-        return $this->render('default/add.html.twig');
-
-    }
 
     /**
      * @Route("/addApi", name="addApi")

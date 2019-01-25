@@ -29,8 +29,8 @@ class DetailCommandController extends Controller
         $variable= json_decode($request->getContent(), true);
 
         $detailCommand = $variable['nomuser'];
-        $category = $this->getDoctrine()->getRepository(Category::class)->find($category);
-        $beer = $this->getDoctrine()->getRepository(Command::class)->find($beer);
+        $category = $this->getDoctrine()->getRepository(Category::class)->find($categoryId);
+        $beer = $this->getDoctrine()->getRepository(Command::class)->find($beerId);
         $user = $this->getDoctrine()->getRepository(Command::class)->find($user);
 
         $detailCommand->setName($detailCommand)

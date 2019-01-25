@@ -32,6 +32,14 @@ class Command
 
 
     /**
+     * @var integer
+     *
+     * @ORM\Column(name="numero", type="integer", length=255)
+     */
+    private $numero;
+
+
+    /**
      * @var float
      *
      * @ORM\Column(name="total", type="float")
@@ -194,5 +202,29 @@ class Command
     public function getUser()
     {
         return $this->user;
+    }
+
+    /**
+     * Set numero
+     *
+     * @param integer $numero
+     *
+     * @return Command
+     */
+    public function setNumero($numero)
+    {
+        $this->numero = $numero;
+
+        return $this;
+    }
+
+    /**
+     * Get numero
+     *
+     * @return integer
+     */
+    public function getNumero()
+    {
+        return $this->numero;
     }
 }

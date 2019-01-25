@@ -10,33 +10,42 @@ use Sensio\Bundle\FrameworkExtraBundle\Configuration\Route;
 class  BiereController extends Controller {
 
     /**
-     * @Route("/addBiere", name="addBiere")
+     * @Route("/", name="homepage")
      */
-    public function createBiereAction() {
-        return $this->render('default/addBiere.html.twig');
+    public function indexAction(Request $request)
+    {
+        // replace this example code with whatever you need
+        return $this->render('default/index.html.twig', [
+            'base_dir' => realpath($this->getParameter('kernel.project_dir')).DIRECTORY_SEPARATOR,
+        ]);
     }
 
     /**
-     * @Route("/updateBiere",name="updateBiere")
+     * @Route("/list", name="list")
      */
-    public function updateBiereAction() {
-        return $this->render('default/updateBiere.html.twig');
+    public function listAction() {
+        $url = "http://127.0.0.1:8000/app_dev.php/beers";
+
+        $response = Unirest\Request::get($url);
+        return $this->render('default/list.html.twig', ['beers'=>$response->body]);
+
     }
 
-    /**
-     * @Route("/listBiere",name="listBiere")
-     */
-    public function listBiereAction(BiereService $biereService) {
-        return $this->render('default/listBiere.html.twig', ['bieres'=>$biereService->bieres]);
-    }
 
     /**
-     * @Route("/detailBiere/{id}",name="detailBiere", requirements={"id"="\d+"})
+     * @Route("/addApi", name="addApi")
      */
-    public function detailBiereAction(BiereService $biereService, $id) {
+    public function addApiAction(Request $request) {
 
-        $biere = $biereService->getBiere($id);
-        return $this->render('default/detailBiere.html.twig', ['oneBiere'=>$biere]);
+        $url = "http://127.0.0.1:8000/app_dev.php/addBiere";
+        $name = $request->get('name');
+        $price = $request->get('price');
+
+        $response = Unirest\Request::post($url, $headers = array('name'=>$name, 'price'=>$price));
+
+        return $this->redirectToRoute('list');
+
+
     }
 
 }

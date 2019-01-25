@@ -1,0 +1,30 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+
+    <div class="container pt-5">
+        <div class="row">
+            <div class="col-12">
+                <h1>Liste des roles</h1>
+            </div>
+            <table class="table">
+                <thead>
+                <tr>
+                    <td>Nom</td>
+                    <td>Actions</td>
+                </tr>
+                </thead>
+                <tbody>
+                {% for role in roles %}
+                    <tr>
+                        <td>{{ role.name }}</td>
+                        <td><button class="btn btn-warning">Delete</button></td>
+                    </tr>
+                {% endfor %}
+                </tbody>
+            </table>
+        </div>
+
+    </div>
+
+{% endblock %}
