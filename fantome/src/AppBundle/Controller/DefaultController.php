@@ -89,7 +89,6 @@ class DefaultController extends Controller
     public function addUserAction()
     {
         $entityManager = $this->getDoctrine()->getManager();
-        $name
         $user = new User();
         $user->setName('Maud')
             ->setPrenom('Titi')

@@ -1,29 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="58c158c4-8638-4f6a-a834-2aa5f14c47b4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../biere/.idea/biere.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../biere/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../biere/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../biere/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../biere/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../biere/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/app/Resources/views/admin/addRole.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/app/Resources/views/default/roles.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/app/Resources/views/includes/header.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/AppBundle/Controller/RoleController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/src/AppBundle/Service/BlogService.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../biere/src/AppBundle/Controller/BiereController.php" beforeDir="false" afterPath="$PROJECT_DIR$/../biere/src/AppBundle/Controller/BiereController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../biere/src/AppBundle/Service/BiereService.php" beforeDir="false" afterPath="$PROJECT_DIR$/../biere/src/AppBundle/Service/BiereService.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../commercebiere/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../commercebiere/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../commercebiere/ecommerce/src/AppBundle/Controller/CommandController.php" beforeDir="false" afterPath="$PROJECT_DIR$/../commercebiere/ecommerce/src/AppBundle/Controller/CommandController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../commercebiere/ecommerce/src/AppBundle/Controller/DetailCommandController.php" beforeDir="false" afterPath="$PROJECT_DIR$/../commercebiere/ecommerce/src/AppBundle/Controller/DetailCommandController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../commercebiere/ecommerce/src/AppBundle/Entity/Command.php" beforeDir="false" afterPath="$PROJECT_DIR$/../commercebiere/ecommerce/src/AppBundle/Entity/Command.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../fantome/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../fantome/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../fantome/src/AppBundle/Controller/DefaultController.php" beforeDir="false" afterPath="$PROJECT_DIR$/../fantome/src/AppBundle/Controller/DefaultController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../fantomefront/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../fantomefront/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../fantomefront/src/AppBundle/Controller/DefaultController.php" beforeDir="false" afterPath="$PROJECT_DIR$/../fantomefront/src/AppBundle/Controller/DefaultController.php" afterDir="false" />
-    </list>
+    <list default="true" id="58c158c4-8638-4f6a-a834-2aa5f14c47b4" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,7 +42,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/blog/src/AppBundle/Controller/UserController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="567">
+            <state relative-caret-position="591">
               <caret line="75" lean-forward="true" selection-start-line="75" selection-end-line="75" />
               <folding>
                 <element signature="e#39#73#0#PHP" expanded="true" />
@@ -319,12 +297,12 @@
       <workItem from="1548406247640" duration="649000" />
       <workItem from="1548407184265" duration="2131000" />
       <workItem from="1548409388296" duration="847000" />
-      <workItem from="1548410883245" duration="12561000" />
+      <workItem from="1548410883245" duration="12738000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16188000" />
+    <option name="totallyTimeSpent" value="16365000" />
   </component>
   <component name="TodoView" selected-index="3">
     <todo-panel id="selected-file">
@@ -336,7 +314,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="67" y="25" width="885" height="915" extended-state="6" />
+    <frame x="67" y="25" width="1853" height="925" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.32181168" />
@@ -513,7 +491,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/blog/src/AppBundle/Controller/UserController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="567">
+        <state relative-caret-position="591">
           <caret line="75" lean-forward="true" selection-start-line="75" selection-end-line="75" />
           <folding>
             <element signature="e#39#73#0#PHP" expanded="true" />
